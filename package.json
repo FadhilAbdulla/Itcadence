@@ -1,0 +1,26 @@
+{
+  "name": "itcadence-web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "images": "node scripts/generate-covers.mjs"
+  },
+  "dependencies": {
+    "gray-matter": "4.0.3",
+    "marked": "18.1.2",
+    "next": "16.4.3",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@fontsource/manrope": "^5.2.5",
+    "@fontsource/sora": "^5.2.5",
+    "@types/node": "22.15.3",
+    "@types/react": "19.1.2",
+    "@types/react-dom": "19.1.2",
+    "typescript": "5.8.3"
+  }
+}
