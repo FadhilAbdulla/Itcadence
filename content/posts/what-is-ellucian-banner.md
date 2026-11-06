@@ -1,6 +1,6 @@
 ---
-title: "What Is Ellucian Banner? A Plain-English Guide for Institutions"
-description: "Ellucian Banner is a higher-education ERP that runs student, finance, HR, financial aid and advancement processes. Here is what it does and how it is structured."
+title: "What Is Ellucian Banner? A Plain-English Guide"
+description: "Ellucian Banner is a higher-education ERP that runs student, finance, HR, financial aid and advancement processes. What it does and how it is structured."
 category: "Banner Basics"
 tags: ["Banner basics", "ERP", "higher education"]
 date: "2026-10-28"

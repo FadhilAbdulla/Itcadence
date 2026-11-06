@@ -1,5 +1,5 @@
 ---
-title: "Finding Your Banner Patching Cadence: Staying Current Without Breaking Term"
+title: "Banner Patching Cadence: Stay Current Without Breaking Term"
 description: "Ellucian ships Banner 9 releases continuously. How to build a predictable patch rhythm that respects the academic calendar."
 category: "Banner Support"
 tags: ["upgrades", "patching", "Banner 9", "operations"]

@@ -1,6 +1,6 @@
 ---
 title: "How Does Fee Assessment Work in Banner?"
-description: "Banner calculates tuition and fees from registration using fee assessment rules and detail codes. How the process works, where charges appear and how to troubleshoot."
+description: "Banner calculates tuition and fees from registration using assessment rules and detail codes. How it works, where charges appear and how to troubleshoot."
 category: "Banner Student"
 tags: ["Accounts Receivable", "fees", "Banner Student"]
 date: "2026-09-27"

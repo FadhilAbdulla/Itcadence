@@ -1,6 +1,6 @@
 ---
 title: "What Is Banner Extensibility and Page Builder?"
-description: "Banner Extensibility lets institutions change Banner 9 pages and build new ones without modifying baseline code. What it can do and when to use it instead of mods."
+description: "Banner Extensibility changes Banner 9 pages and builds new ones without modifying baseline code. What it can do and when to use it instead of mods."
 category: "Banner Technical"
 tags: ["Extensibility", "Page Builder", "Banner 9", "modifications"]
 date: "2026-10-10"

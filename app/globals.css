@@ -20,8 +20,8 @@
   --radius: 18px;
   --radius-lg: 28px;
   --shadow: 0 20px 50px -20px rgba(10, 19, 36, 0.35);
-  --font-display: "Sora", system-ui, sans-serif;
-  --font-body: "Manrope", system-ui, sans-serif;
+  --font-display: var(--font-sora), system-ui, sans-serif;
+  --font-body: var(--font-manrope), system-ui, sans-serif;
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
   --container: 1200px;
 }
@@ -440,7 +440,7 @@ body.has-cursor .cursor-glow { opacity: 1; }
 .footer { background: #060c18; color: var(--muted-dark); padding: 80px 0 36px; font-size: 15px; }
 .footer__grid { display: grid; grid-template-columns: 1.5fr 1fr 1fr 1fr; gap: 40px; margin-bottom: 60px; }
 .footer .logo { color: #fff; margin-bottom: 16px; }
-.footer h4 { color: #fff; font-size: 15px; margin-bottom: 18px; }
+.footer .footer__title { color: #fff; font-size: 15px; margin-bottom: 18px; }
 .footer ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
 .footer a { transition: color 0.2s; }
 .footer a:hover { color: var(--accent); }

@@ -1,6 +1,6 @@
 ---
 title: "What Is Banner Document Management (BDM)?"
-description: "Banner Document Management stores scanned and electronic documents linked to Banner records such as student files and invoices. How it works and common use cases."
+description: "Banner Document Management stores scanned and electronic documents linked to Banner records such as student files and invoices. How it works and use cases."
 category: "Banner Technical"
 tags: ["BDM", "documents", "Banner General"]
 date: "2026-10-07"

@@ -1,6 +1,6 @@
 ---
 title: "What Is Population Selection in Banner?"
-description: "Population selection builds lists of people from Banner data using rules on GLRSLCT and the GLBDATA process. How it works and how to use it with jobs and letters."
+description: "Population selection builds lists of people from Banner data using GLRSLCT rules and the GLBDATA process. How it works and how to use it with jobs and letters."
 coverCode: "GLRSLCT"
 category: "Banner Technical"
 tags: ["population selection", "Banner General", "batch processing"]

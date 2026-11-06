@@ -3,12 +3,13 @@ import Link from "next/link";
 import Nav from "@/components/Nav";
 import JsonLd from "@/components/JsonLd";
 import { GLOSSARY, termId } from "@/lib/glossary";
-import { absUrl } from "@/lib/site";
+import { absUrl, pagePreview } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Ellucian Banner Glossary: Banner Terms Explained",
-  description: "Plain-English definitions of Ellucian Banner terms: PIDM, FOAPAL, CRN, term code, Admin Pages, Application Navigator, Ethos, ILP, ESM, job submission, population selection and more.",
+  description: "Plain-English definitions of Ellucian Banner terms: PIDM, FOAPAL, CRN, term codes, Application Navigator, Ethos, ILP, ESM, Data Connect and more.",
   alternates: { canonical: "/banner-glossary" },
+  ...pagePreview({ url: "/banner-glossary", title: "Ellucian Banner Glossary | ITCadence", description: "Plain-English definitions of Ellucian Banner terms: PIDM, FOAPAL, CRN, term codes, Application Navigator, Ethos, ILP, ESM, Data Connect and more." }),
 };
 
 export default function Glossary() {

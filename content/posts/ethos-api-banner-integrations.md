@@ -1,5 +1,5 @@
 ---
-title: "From Custom Scripts to Ethos APIs: Modernising Banner Integrations"
+title: "From Scripts to Ethos APIs: Modernising Banner Integrations"
 description: "Point-to-point scripts are fragile. Ellucian Ethos gives Banner a standard API layer. How to move without a big bang."
 coverCode: "ETHOS API"
 category: "Integration"

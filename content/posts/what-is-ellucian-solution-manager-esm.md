@@ -1,6 +1,6 @@
 ---
 title: "What Is Ellucian Solution Manager (ESM)?"
-description: "Ellucian Solution Manager is the tool Banner 9 institutions use to install, upgrade and deploy Banner applications across environments. What it does and best practices."
+description: "Ellucian Solution Manager is the tool Banner 9 institutions use to install, upgrade and deploy Banner across environments. What it does and best practices."
 coverCode: "ESM"
 category: "Banner Technical"
 tags: ["ESM", "upgrades", "Banner 9"]

@@ -1,6 +1,6 @@
 ---
 title: "What Is FOAPAL in Banner Finance?"
-description: "FOAPAL is the chart of accounts structure in Banner Finance: Fund, Organisation, Account, Program, Activity and Location. What each element means, with examples."
+description: "FOAPAL is the Banner Finance chart of accounts structure: Fund, Organisation, Account, Program, Activity and Location. What each element means, with examples."
 coverCode: "FOAPAL"
 category: "Banner Finance & HR"
 tags: ["Banner Finance", "chart of accounts", "FOAPAL"]

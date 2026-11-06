@@ -8,7 +8,7 @@ import PostCard from "@/components/PostCard";
 import JsonLd from "@/components/JsonLd";
 import { Book, Cal, Clock, LinkedIn, LogoMark, Spark, WhatsApp } from "@/components/Icons";
 import { formatDate, getAllPosts, getPost, getRelated, slugify } from "@/lib/posts";
-import { SITE, absUrl } from "@/lib/site";
+import { SITE, absUrl, seoTitle } from "@/lib/site";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -22,12 +22,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!post) return {};
   const url = `/blog/${post.slug}`;
   return {
-    title: post.title,
+    title: seoTitle(post.title),
     description: post.description,
     keywords: [...post.tags, "Ellucian Banner", post.category],
     alternates: { canonical: url, types: { "text/markdown": `/markdown/${post.slug}.md` } },
     openGraph: {
-      type: "article", url, title: post.title, description: post.description,
+      type: "article", siteName: SITE.name, locale: SITE.locale, url, title: post.title, description: post.description,
       publishedTime: post.date, modifiedTime: post.updated, section: post.category, tags: post.tags,
       images: [{ url: post.cover, width: 1200, height: 630, alt: post.coverAlt }],
     },

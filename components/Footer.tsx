@@ -16,7 +16,7 @@ export default function Footer() {
               <p>Enterprise e-learning and Ellucian Banner support for universities and colleges, from our office in Dubai.</p>
             </div>
             <div>
-              <h4>Learn Banner</h4>
+              <h2 className="footer__title">Learn Banner</h2>
               <ul>
                 <li><Link href="/banner-faq">Banner Q&amp;A hub</Link></li>
                 <li><Link href="/banner-glossary">Banner glossary</Link></li>
@@ -26,7 +26,7 @@ export default function Footer() {
               </ul>
             </div>
             <div>
-              <h4>Company</h4>
+              <h2 className="footer__title">Company</h2>
               <ul>
                 <li><Link href="/#services">Services</Link></li>
                 <li><Link href="/#process">Our approach</Link></li>
@@ -36,7 +36,7 @@ export default function Footer() {
               </ul>
             </div>
             <div>
-              <h4>Reach us</h4>
+              <h2 className="footer__title">Reach us</h2>
               <address style={{ fontStyle: "normal" }}>
                 <ul>
                   <li><a href={waLink()} target="_blank" rel="noopener">WhatsApp {SITE.phoneDisplay}</a></li>

@@ -1,6 +1,6 @@
 ---
-title: "How Does Banner Job Submission Work? GJAPCTL and GJIREVO Explained"
-description: "Banner runs reports and batch processes through Job Submission. How to submit a job on GJAPCTL, use saved parameter sets, review output in GJIREVO and fix failed jobs."
+title: "How Does Banner Job Submission Work? GJAPCTL and GJIREVO"
+description: "Banner runs reports and batch processes through Job Submission. How to submit on GJAPCTL, use saved parameters, review output in GJIREVO and fix failed jobs."
 coverCode: "GJAPCTL"
 category: "Banner Technical"
 tags: ["job submission", "Banner General", "batch processing"]

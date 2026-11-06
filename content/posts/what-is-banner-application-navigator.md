@@ -1,6 +1,6 @@
 ---
 title: "What Is Banner Application Navigator?"
-description: "Application Navigator is the Banner 9 shell that opens Admin Pages, handles search and keeps your session across Banner applications. How it works and common issues."
+description: "Application Navigator is the Banner 9 shell that opens Admin Pages, handles search and keeps your session across applications. How it works and common issues."
 coverCode: "NAVIGATOR"
 category: "Banner Basics"
 tags: ["Banner 9", "Application Navigator", "Admin Pages"]

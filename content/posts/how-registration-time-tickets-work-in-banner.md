@@ -1,6 +1,6 @@
 ---
 title: "How Do Registration Time Tickets Work in Banner?"
-description: "Time tickets control when each student can register. How Banner assigns registration windows, the controls behind them and how to troubleshoot 'not permitted to register' errors."
+description: "Time tickets control when each student can register. How Banner assigns windows, the controls behind them and how to fix 'not permitted to register' errors."
 category: "Banner Student"
 tags: ["registration", "Banner Student", "Self-Service"]
 date: "2026-10-11"

@@ -1,6 +1,6 @@
 ---
 title: "What Is Banner Self-Service?"
-description: "Banner Self-Service lets students, faculty and employees work with Banner directly from a browser. What it includes, how it is deployed and common support issues."
+description: "Banner Self-Service lets students, faculty and employees use Banner from a browser. What it includes, how it is deployed and common support issues."
 category: "Banner Basics"
 tags: ["Self-Service", "Banner 9", "students"]
 date: "2026-10-16"

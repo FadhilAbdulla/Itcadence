@@ -4,6 +4,7 @@ description: "A SaaS move changes how you customise, report and integrate. A fiv
 category: "Cloud"
 tags: ["SaaS", "cloud", "migration"]
 date: "2026-09-24"
+updated: "2026-11-07"
 question: "How do you plan a Banner SaaS migration?"
 answer: "Plan a Banner SaaS migration in five phases: inventory everything that touches Banner, classify each item (retire, reconfigure, rebuild or re-platform), rebuild integrations on Ethos APIs, rehearse the cutover with data validation at least twice, and run a hypercare period while the team adopts the new operating model."
 faqs:
@@ -13,7 +14,7 @@ faqs:
     a: "At least two full rehearsals with validation scripts, timed so you can estimate the real cutover window."
 ---
 
-More institutions are moving Banner from on-premises data centres to Ellucian SaaS. The appeal is clear: continuous updates, less infrastructure and a smaller patching burden. But SaaS also changes the rules for customisation, reporting and integration. See [Banner SaaS vs on-premise](/blog/banner-saas-vs-on-premise) for the comparison.
+More institutions are moving Banner from on-premises data centres to Ellucian SaaS. The appeal is clear: continuous updates, less infrastructure and a smaller patching burden. But SaaS also changes the rules for customisation, reporting and integration. See [Banner SaaS vs on-premise](/blog/banner-saas-vs-on-premise) for the comparison, and [Ellucian Student explained](/blog/what-is-ellucian-student-powered-by-banner) for how the offer is now packaged.
 
 ![Five-phase Banner SaaS migration plan](/images/diagrams/saas-phases.svg "Inventory, classify, rebuild, rehearse, hypercare")
 
@@ -24,7 +25,7 @@ More institutions are moving Banner from on-premises data centres to Ellucian Sa
 - Direct database connections from reporting tools, scripts and third parties
 - File-based feeds in and out (bank files, LMS, ID cards, housing)
 
-In SaaS, direct database access and arbitrary server-side code are generally restricted, so each item needs a new home.
+In SaaS, direct database access and arbitrary server-side code are generally restricted, so each item needs a new home. Our guide to [what replaces direct database access](/blog/banner-saas-direct-database-access) shows how that rebuild works.
 
 ## Phase 2: Classify and decide
 
@@ -41,7 +42,7 @@ Integrations that read tables directly should move to [Ethos APIs](/blog/what-is
 
 ## Phase 4: Rehearse the cutover
 
-Run at least two full mock migrations with validation scripts that compare record counts and key balances. Time each rehearsal; that becomes your cutover estimate.
+Run at least two full mock migrations with validation scripts that compare record counts and key balances. Time each rehearsal; that becomes your cutover estimate. For overall planning, compare [how long real Banner SaaS migrations have taken](/blog/how-long-does-banner-saas-migration-take).
 
 ## Phase 5: Hypercare and a new operating model
 

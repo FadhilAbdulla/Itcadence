@@ -5,13 +5,13 @@ import Nav from "@/components/Nav";
 import JsonLd from "@/components/JsonLd";
 import { Arrow } from "@/components/Icons";
 import { getAllPosts, slugify } from "@/lib/posts";
-import { absUrl } from "@/lib/site";
+import { absUrl, pagePreview } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Ellucian Banner FAQ: Answers to Common Banner Questions",
-  description: "Short, direct answers to the most common Ellucian Banner questions: Banner 9, PIDM, FOAPAL, job submission, population selection, holds, grade roll, Ethos, ILP, SaaS and more.",
+  title: "Ellucian Banner FAQ: Common Questions Answered",
+  description: "Short, direct answers to common Ellucian Banner questions: Banner 9, PIDM, FOAPAL, job submission, holds, grade roll, Ethos, ILP, SaaS and more.",
   alternates: { canonical: "/banner-faq" },
-  openGraph: { url: "/banner-faq", title: "Ellucian Banner FAQ | ITCadence", images: ["/og.jpg"] },
+  ...pagePreview({ url: "/banner-faq", title: "Ellucian Banner FAQ | ITCadence", description: "Short, direct answers to common Ellucian Banner questions: Banner 9, PIDM, FOAPAL, job submission, holds, grade roll, Ethos, ILP, SaaS and more." }),
 };
 
 export default function BannerFaq() {
@@ -60,7 +60,7 @@ export default function BannerFaq() {
                   {g.items.map((p) => (
                     <article key={p.slug} className="qa-item">
                       <Link href={`/blog/${p.slug}`} className="qa-item__img" aria-hidden="true" tabIndex={-1}>
-                        <Image src={p.cover} alt="" fill sizes="(max-width: 640px) 100vw, 220px" />
+                        <Image src={p.cover} alt={p.coverAlt} fill sizes="(max-width: 640px) 100vw, 220px" />
                       </Link>
                       <div>
                         <h3 style={{ fontSize: 22, marginBottom: 10 }}><Link href={`/blog/${p.slug}`}>{p.question}</Link></h3>

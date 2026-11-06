@@ -1,5 +1,5 @@
 ---
-title: "What Is Grade Roll in Banner? From Final Grades to Academic History"
+title: "What Is Grade Roll in Banner? Final Grades to History"
 description: "Grade roll moves final grades from registration records into permanent academic history in Banner. How the process works, what it updates and common errors."
 coverCode: "SHRROLL"
 category: "Banner Student"

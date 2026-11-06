@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import BlogListing from "@/components/BlogListing";
 import { getAllPosts, getCategories } from "@/lib/posts";
+import { pagePreview } from "@/lib/site";
 
 type Props = { params: Promise<{ category: string }> };
 
@@ -10,10 +11,10 @@ const INTROS: Record<string, string> = {
   "banner-student": "Registration, holds, time tickets, grade roll, Degree Works and fee assessment in Banner Student, explained.",
   "banner-finance-and-hr": "FOAPAL, payroll processing and financial aid year rollover in Banner Finance, HR and Financial Aid.",
   "banner-technical": "Job submission, population selection, security, SSO, ESM, performance and Extensibility for Banner technical teams.",
-  integration: "Ellucian Ethos, APIs and modern integration patterns for Banner.",
-  cloud: "Banner SaaS, cloud migration planning and the new operating model.",
+  integration: "Ellucian Ethos, REST APIs and modern integration patterns for Banner, and how to move away from fragile custom scripts.",
+  cloud: "Banner SaaS, Ellucian Student powered by Banner, UAE hosting, migration timelines and what changes when direct database access goes away.",
   "e-learning": "Connecting Banner with Moodle, Canvas, Brightspace and Blackboard through ILP and APIs.",
-  "banner-support": "Runbooks and operating rhythms for teams who keep Banner running.",
+  "banner-support": "Runbooks, patching rhythms and registration-week readiness for the teams who keep Ellucian Banner running.",
 };
 
 export function generateStaticParams() {
@@ -24,10 +25,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { category } = await params;
   const c = getCategories().find((x) => x.slug === category);
   if (!c) return {};
+  const title = `${c.name}: Ellucian Banner Articles`;
+  const description = INTROS[category] || `Ellucian Banner articles about ${c.name}.`;
+  const url = `/blog/category/${category}`;
   return {
-    title: `${c.name}: Ellucian Banner Articles and Answers`,
-    description: INTROS[category] || `Ellucian Banner articles about ${c.name}.`,
-    alternates: { canonical: `/blog/category/${category}` },
+    title,
+    description,
+    alternates: { canonical: url },
+    ...pagePreview({ url, title: `${title} | ITCadence`, description }),
   };
 }
 

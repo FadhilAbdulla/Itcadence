@@ -1,5 +1,5 @@
 ---
-title: "How Do Banner Page Names Work? Decoding SPAIDEN, GJAPCTL and FGAJVCD"
+title: "How Do Banner Page Names Work? SPAIDEN and GJAPCTL Decoded"
 description: "Banner page and table names follow a seven-character convention. Learn what each letter means so you can read any Banner object name at a glance."
 category: "Banner Basics"
 tags: ["Banner basics", "naming conventions", "Admin Pages"]

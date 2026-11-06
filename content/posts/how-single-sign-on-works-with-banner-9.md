@@ -1,6 +1,6 @@
 ---
 title: "How Does Single Sign-On Work with Banner 9?"
-description: "Banner 9 supports single sign-on through CAS and SAML 2.0 with identity providers such as Microsoft Entra ID, ADFS, Okta or Shibboleth. How it works and common pitfalls."
+description: "Banner 9 supports single sign-on through CAS and SAML 2.0 with providers such as Entra ID, ADFS, Okta or Shibboleth. How it works and common pitfalls."
 coverCode: "SAML SSO"
 category: "Banner Technical"
 tags: ["SSO", "SAML", "security", "Banner 9"]

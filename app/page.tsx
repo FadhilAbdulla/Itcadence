@@ -69,13 +69,13 @@ export default function Home() {
           <div className="hero__grid" aria-hidden="true" />
           <div className="container hero__inner">
             <div>
-              <div className="hero__badge"><span className="dot" />Ellucian Banner &amp; e-learning specialists in Dubai</div>
+              <div className="hero__badge"><span className="dot" />The UAE&apos;s dedicated Ellucian Banner support team</div>
               <h1>
                 <span className="line"><span>Keep your campus</span></span>
                 <span className="line"><span>running at full</span></span>
                 <span className="line"><span><span className="rotator" data-rotate="cadence.|Banner 9.|enrolment.|e-learning.|cloud scale.">cadence.</span></span></span>
               </h1>
-              <p className="hero__lead">ITCadence provides managed <strong>Ellucian Banner support</strong>, Banner 9 upgrades, Ethos integrations and enterprise e-learning platforms for universities and colleges, so your teams can focus on students, not systems.</p>
+              <p className="hero__lead">Based in Dubai and working in your time zone, ITCadence provides managed <strong>Ellucian Banner support</strong>, Banner 9 upgrades, Ethos integrations and enterprise e-learning platforms, so your teams can focus on students, not systems.</p>
               <div className="hero__actions">
                 <Link href="#contact" className="btn" data-magnetic>Book a Banner health check <Arrow /></Link>
                 <a href={waLink()} target="_blank" rel="noopener" className="btn btn--ghost" data-magnetic><WhatsApp size={18} /> WhatsApp support</a>
@@ -272,7 +272,7 @@ export default function Home() {
           <div className="container">
             <div className="support-band reveal reveal--scale">
               <div className="support-band__ico"><WhatsApp /></div>
-              <div><h2 className="h3" style={{ fontSize: 24, marginBottom: 4 }}>Banner down? Message us on WhatsApp.</h2><p>Reach the ITCadence support desk directly at <strong>{SITE.phoneDisplay}</strong> for urgent Banner and LMS issues.</p></div>
+              <div><h2 className="h3" style={{ fontSize: 24, marginBottom: 4 }}>Banner down? Message us on WhatsApp.</h2><p>One Dubai-based team for Banner, Moodle, Canvas, Brightspace and Blackboard. Reach our support desk directly at <strong>{SITE.phoneDisplay}</strong>.</p></div>
               <a href={waLink("Hello ITCadence, I need urgent Banner support.")} target="_blank" rel="noopener" className="btn btn--wa" data-magnetic>Chat on WhatsApp <Arrow /></a>
             </div>
           </div>

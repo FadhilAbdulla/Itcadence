@@ -1,6 +1,6 @@
 ---
 title: "How Do Term Codes and CRNs Work in Banner?"
-description: "Banner identifies terms with term codes defined on STVTERM and class sections with CRNs. How they are structured and why they matter for registration, billing and reporting."
+description: "Banner identifies terms with STVTERM term codes and class sections with CRNs. How they are structured and why they matter for registration and billing."
 coverCode: "SSASECT"
 category: "Banner Student"
 tags: ["Banner Student", "schedule", "data model"]
