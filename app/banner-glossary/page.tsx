@@ -45,8 +45,7 @@ export default function Glossary() {
                 const first = i === 0 || sorted[i - 1].term[0].toUpperCase() !== t.term[0].toUpperCase();
                 return (
                   <div className="term" key={t.term} id={termId(t.term)}>
-                    {first && <span id={`letter-${t.term[0].toUpperCase()}`} style={{ position: "relative", top: -100 }} />}
-                    <dt>{t.term}{t.full && <small>{t.full}</small>}</dt>
+                    <dt>{first && <span id={`letter-${t.term[0].toUpperCase()}`} style={{ position: "relative", top: -100 }} />}{t.term}{t.full && <small>{t.full}</small>}</dt>
                     <dd>{t.def} {t.link && <Link href={t.link}>Learn more →</Link>}</dd>
                   </div>
                 );

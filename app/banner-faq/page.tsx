@@ -50,7 +50,7 @@ export default function BannerFaq() {
         <section className="section">
           <div className="container">
             <nav className="jump reveal" aria-label="Jump to topic">
-              {groups.map((g) => <a key={g.id} className="filter" href={`#${g.id}`}>{g.name} <span style={{ opacity: 0.55 }}>{g.items.length}</span></a>)}
+              {groups.map((g) => <a key={g.id} className="filter" href={`#${g.id}`}>{g.name} <span style={{ opacity: 0.75 }}>{g.items.length}</span></a>)}
               <Link className="filter" href="/banner-glossary">Glossary →</Link>
             </nav>
             {groups.map((g) => (

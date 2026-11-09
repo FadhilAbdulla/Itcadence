@@ -33,6 +33,7 @@ ${about()}
 - [Home](${absUrl("/")}): services, Banner module coverage, engagement models, contact
 - [Ellucian Banner FAQ](${absUrl("/banner-faq")}): short answers to common Banner questions
 - [Banner glossary](${absUrl("/banner-glossary")}): definitions of Banner terms and acronyms
+- [Free Banner health check](${absUrl("/banner-health-check")}): interactive self-assessment of a Banner environment across upgrades, security, operations, integrations and SaaS readiness
 - [Blog](${absUrl("/blog")}): all articles
 - [Full content for LLMs](${absUrl("/llms-full.txt")}): every article in Markdown in one file
 

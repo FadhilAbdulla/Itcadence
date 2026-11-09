@@ -44,6 +44,7 @@ const PALETTE = {
   Cloud: ["#3aa0ff", "#8b7bff"],
   "E-Learning": ["#2ee6c5", "#ffb547"],
   "Banner Support": ["#2ee6c5", "#ff6b8b"],
+  Migration: ["#ffb547", "#8b7bff"],
 };
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 const hash = (s) => [...s].reduce((a, c) => (a * 31 + c.charCodeAt(0)) >>> 0, 7);

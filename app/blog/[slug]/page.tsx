@@ -137,7 +137,7 @@ export default async function PostPage({ params }: Props) {
 
               <div className="author">
                 <div className="author__avatar"><LogoMark /></div>
-                <div><b>ITCadence Banner Team</b><span>Ellucian Banner and e-learning specialists, {SITE.address.region}. <Link href="/#contact" style={{ color: "var(--accent-deep)", fontWeight: 600 }}>Need help with this?</Link></span></div>
+                <div><b>ITCadence Banner Team</b><span>Ellucian Banner and e-learning specialists, {SITE.address.region}. <Link href="/#contact" style={{ color: "#0a6b59", fontWeight: 600 }}>Need help with this?</Link></span></div>
               </div>
             </div>
             <aside className="toc" aria-label="On this page">

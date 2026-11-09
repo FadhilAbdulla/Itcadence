@@ -14,6 +14,7 @@ const INTROS: Record<string, string> = {
   integration: "Ellucian Ethos, REST APIs and modern integration patterns for Banner, and how to move away from fragile custom scripts.",
   cloud: "Banner SaaS, Ellucian Student powered by Banner, UAE hosting, migration timelines and what changes when direct database access goes away.",
   "e-learning": "Connecting Banner with Moodle, Canvas, Brightspace and Blackboard through ILP and APIs.",
+  migration: "Moving to Ellucian Banner from a legacy system, converting data safely and choosing the right migration support.",
   "banner-support": "Runbooks, patching rhythms and registration-week readiness for the teams who keep Ellucian Banner running.",
 };
 

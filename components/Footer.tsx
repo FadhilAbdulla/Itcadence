@@ -18,6 +18,7 @@ export default function Footer() {
             <div>
               <h2 className="footer__title">Learn Banner</h2>
               <ul>
+                <li><Link href="/banner-health-check">Free Banner health check</Link></li>
                 <li><Link href="/banner-faq">Banner Q&amp;A hub</Link></li>
                 <li><Link href="/banner-glossary">Banner glossary</Link></li>
                 {cats.map((c) => (

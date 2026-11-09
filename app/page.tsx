@@ -77,7 +77,7 @@ export default function Home() {
               </h1>
               <p className="hero__lead">Based in Dubai and working in your time zone, ITCadence provides managed <strong>Ellucian Banner support</strong>, Banner 9 upgrades, Ethos integrations and enterprise e-learning platforms, so your teams can focus on students, not systems.</p>
               <div className="hero__actions">
-                <Link href="#contact" className="btn" data-magnetic>Book a Banner health check <Arrow /></Link>
+                <Link href="/banner-health-check" className="btn" data-magnetic>Take the free Banner health check <Arrow /></Link>
                 <a href={waLink()} target="_blank" rel="noopener" className="btn btn--ghost" data-magnetic><WhatsApp size={18} /> WhatsApp support</a>
               </div>
               <div className="hero__trust">

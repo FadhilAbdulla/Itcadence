@@ -9,6 +9,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: absUrl("/"), lastModified: latest, changeFrequency: "weekly", priority: 1 },
     { url: absUrl("/blog"), lastModified: latest, changeFrequency: "weekly", priority: 0.9 },
     { url: absUrl("/banner-faq"), lastModified: latest, changeFrequency: "weekly", priority: 0.9 },
+    { url: absUrl("/banner-health-check"), lastModified: latest, changeFrequency: "monthly", priority: 0.8 },
     { url: absUrl("/banner-glossary"), lastModified: latest, changeFrequency: "monthly", priority: 0.7 },
     ...getCategories().map((c) => ({ url: absUrl(`/blog/category/${c.slug}`), lastModified: latest, changeFrequency: "weekly" as const, priority: 0.6 })),
     ...posts.map((p) => ({
